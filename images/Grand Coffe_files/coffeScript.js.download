@@ -1,0 +1,8 @@
+let menuBar = document.querySelector(".menu-bar");
+let dropDown = document.querySelector(".dropdown-container");
+
+menuBar.addEventListener("click",function () {
+    dropDown.classList.toggle("open");
+    
+})
+console.log(menuBar)
